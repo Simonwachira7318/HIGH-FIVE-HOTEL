@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: ; */
+}
+header{
+    background-image: url(/images/star-hotel-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    text-transform: none;
+    color: azure;
+    padding: 5px 20px;
+    border: 1.3px solid azure transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 250px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50rem;
+    
+}
+.heading{
+    color: #082dff;
+    font-size: 70px;
+   
+}
+.button{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1.2px solid #fff;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #567cf7;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #4286ec;
+    color: #000; 
+    transition: 0.6s ease;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.service {
+	flex-basis: 30%;
+	margin-bottom: 40px;
+}
+
+img {
+	max-width: 100%;
+	/* transform: skew(-20deg); */
+	margin-right: 20px;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	/* transform: skew(20deg); */
+}
+
+p {
+	margin: 0;
+	line-height: 1.5;
+	/* transform: skew(20deg); */
+}
+
+body {
+	font-family: Arial, sans-serif;
+    background-color: #addeee;
+
+}
+
+h1 {
+	text-align: center;
+	color: #207ae8;
+}
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+th {
+	background-color:  #207ae8;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: #ddd;
+}
+
+td:nth-child(3) {
+	text-align: right;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.member {
+	flex-basis: 30%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+p {
+	margin: 0;
+}
+
+.social-icons {
+    margin-left: 7rem;
+    --size:4rem;
+    width:var(--size);
+    height:var(--size);
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social-icons img {
+	max-width: 100%;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.contact-form {
+	margin-bottom: 40px;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+input[type="submit"] {
+	background-color: #349fe1;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+	background-color: #0018ce;
+}
+
+.contact-info {
+	text-align: center;
+}
+
+.contact-info p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.contact-info strong {
+	font-weight: bold;
+}
+
